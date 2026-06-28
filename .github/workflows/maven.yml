@@ -21,7 +21,7 @@ jobs:
           cache: maven
 
       - name: Build with Maven
-        working-directory: banking-system   # ONLY keep if pom.xml is here
+        working-directory: bankingapp
         run: mvn -B package
 
       - name: Update dependency graph
